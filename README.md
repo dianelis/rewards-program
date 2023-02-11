@@ -3,6 +3,9 @@
 ![Screenshot](Screenshot.png)
 
 
+## Installation
+
+Clone or download this repo and execute `npm install`
 ## Available Scripts
 
 Run project:
