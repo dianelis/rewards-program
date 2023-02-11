@@ -1,6 +1,6 @@
 # Rewards Program App
 
-![screenshot](https://github.com/dianelis/rewards-program.git/[main]/index.png?raw=true)
+![Screenshot](Screenshot.png)
 
 
 ## Available Scripts
