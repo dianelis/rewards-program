@@ -6,13 +6,8 @@ export const getRandomSelectorNumber = (max = 2, min = 0) =>
   Math.round(Math.random() * (max - min) + min);
 
 export const calculatePoints = (_amount) => {
-  const amount = Math.round(_amount);
-  let total = 0;
-  if (amount > 50) {
-    if (amount > 100) total += (amount - 100) * 2 + 50;
-    else total += amount - 50;
-  }
-  return total;
+  const amount = Math.floor(_amount);
+  return Math.max(amount - 50, (amount - 100) * 2 + 50, 0);
 };
 
 export const getTotalAndPeriodPoints = (transactions) => {
